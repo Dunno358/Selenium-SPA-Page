@@ -1,0 +1,202 @@
+
+body{
+    background-image: url("body2.jpg");
+    height: 80%;
+    width: 98%;
+    background-size: cover;
+}
+a{
+    color: #858e9a;
+    font-size: 19px;
+}
+a:hover
+{
+    color:#202069;
+}
+ul
+{
+    list-style-type: none;
+}
+#title
+{
+    text-align: center;
+    color: #202069;
+    margin-top: 5%;
+    font-size: 55px;
+}
+nav{
+    margin-top: 50px;
+    margin-right: 20%;
+    text-align: right;
+    font-size: 20px;
+}
+.navsection
+{
+    color: #013540;
+    float: right;
+    font-size: 20px;
+}
+.navsection:hover
+{
+    color: gray;
+}
+section{
+    text-align: center;
+}
+.buttons{
+    color: #507282;
+    background: transparent;
+    border: thin;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.buttons:hover
+{
+    color: maroon;
+}
+#icon
+{
+    font-size: 30px;
+    color: lightblue;
+}
+.nd_div_content
+{
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
+    color: black;
+    margin-top: 12%;
+}
+#navline
+{
+    border: 1px solid #015e67;
+}
+.commandsLine
+{
+    border: 1px solid #015e67;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#st_div_content
+{
+    text-align: center;
+    font-size: 24px;
+    color: #858e9a;
+}
+.intablecont
+{
+	font-size: 20px;
+	font-style: normal;
+	text-align: center;
+	margin-top: 10px;
+	color: #7d7d8c;
+}
+#intablecont2
+{
+	text-align: center;
+	color: #7d7d8c;
+	font-size: 15px;
+}
+.commBtn
+{
+    background: #015e67;
+    border-radius: 10px;
+    color:#7d7d8c;
+    height: 40px;
+}
+.commBtn:hover
+{
+    color: lightblue;
+    border:2px outset lightgray;
+}
+#hf_author
+{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 80%;
+    color: darkblue;
+}
+hr
+{
+    border: 1px solid #460303;
+}
+#main
+{
+    margin-left: 30%;
+    width: 600px;
+    height: 1000px;;
+    border: 1px solid #460303;
+    background: #000000eb;
+}
+#title2
+{
+    margin-left: 36%;
+    font-size: 40px;;
+}
+#subtitle
+{
+    margin-left: 30%;
+    font-size: 25px;
+}
+.data1
+{
+    margin-left: 5%;
+    border: 5px outset #460303;
+}
+#formcont
+{
+    margin-left: 5%;
+    width: 90%;
+    height: 90%;
+    border: 2px solid #460303;
+}
+.top
+{
+    font-size: 25px;
+    margin-left: 36%;
+}
+.gendch
+{
+    margin-left: 22%;
+}
+.educh
+{
+    margin-left: 12%;
+}
+.langtop
+{
+    margin-left: 18%;
+}
+#langch
+{
+    margin-left: 20%;
+    width: 200px;
+    border: 2px solid maroon;
+}
+.intch
+{
+    margin-left: 18%;
+    color: gray;
+}
+.intinne
+{
+    margin-left: 5%;
+}
+.opinarea
+{
+    margin-left: 15%;
+}
+.btn_reset
+{
+    background: maroon;
+    margin-left: 30%;
+}
+.btn_success
+{
+    margin-left: 10%;
+    background: darkgreen;
+}
+.btn
+{
+    border-radius: 10px;
+}

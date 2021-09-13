@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mariusz Walczyk">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="SFavicon.ico">
+        <title>Formularz Użytkownika</title>
+    </head>
+    <body style="color: lightgray;">
+        <form id="main"
+        action="script.php" 
+        method="POST" 
+        autocomplete="off" 
+        novalidate="novalidate" 
+        enctype="text/plain"
+        >
+            <label id="title2"><strong>Formularz</strong></label>
+            <hr />
+            <br />
+            <div id="formcont">
+            <label id="subtitle"><strong>Wypełnij poniższe dane:</strong></label>
+            <br /><br />
+            <label class="data1"><input required="required" type="text" name="Name" size="25" placeholder="Podaj imię..."/></label>
+            <label class="data1"><input required type="text" name="Name2" size="25" placeholder="Podaj nazwisko..." /></label>
+            <br /><br />
+            <label class="data1"><input required type="text" name="Age" size="25" placeholder="Podaj wiek..." /></label>
+            <label class="data1"><input required type="text" name="Mail" size="25" placeholder="Podaj adres e-mail..." /></label>
+            <br /><hr />
+            <label class="top">Wybierz płeć:</label>
+            <br /><br />
+            <label><input class="gendch" type="radio" name="gender"/>Mężczyzna</label>
+            <label><input class="gendch" type="radio" name="gender"/>Kobieta</label>
+            <br /><hr />
+            <label class="top" style="margin-left: 26%;">Twoje doświadczenie:</label>
+            <br /><br />
+            <div style="margin-left: 10%;">
+            <label><input class="educh" type="radio" name="edu"/>Junior</label>
+            <label><input class="educh" type="radio" name="edu"/>Mid</label>
+            <label><input class="educh" type="radio" name="edu"/>Senior</label>
+            </div>
+            <hr />
+            <label class="langtop top" style="margin-left: 2%;">Wybierz używane przez ciebie(przytrzymując Ctrl):</label>
+            <br /><br />
+            <select id="langch" name="Languages" multiple size="5"> 
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>C#</option>
+                <option>Selenium</option>
+            </select>
+            <br /><hr />      
+            <label class="top">Rodzaj zgłoszenia:</label>
+            <br /><br />
+            <label><input class="intch" type="radio" name="Interests"/>Znaleziony błąd</label><br />
+            <label><input class="intch" type="radio" name="Interests"/>Uwaga</label><br />
+            <label><input class="intch" type="radio" name="Interests"/>Pytanie</label><br />    
+            <label><input class="intch" type="radio" name="Interests"/>Skarga</label><br />
+            <label><input class="intch" type="checkbox" name="Interests"/>Inne: 
+            <input placeholder="Podaj jakie..." class="intinne intch" type="text" name="Interests"></input></label><br />
+            <br /><hr />
+            <label class="opinarea"><textarea name="Opinion" cols="50" rows="9" placeholder="Informacja od ciebie:"></textarea></label>    
+            <hr />
+            <label><input required="required" type="checkbox" name="btn_accept"/>Zgadzam się na przetwarzanie moich danych osobowych.</label>
+            <br /><br />
+            <label><input  class="btn btn_reset" type="reset" name="btn_clear"/></label>
+            <label><input  class="btn btn_success" type="submit" name="btn_submit"/></label>
+        </div>
+        </form>
+    </body>
+</html>
